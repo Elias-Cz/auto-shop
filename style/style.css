@@ -1,0 +1,72 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', serif;
+  font-weight: bold;
+}
+
+.bg {
+  background-image: url('/imgs/gcs.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  -o-background-size: cover;
+}
+
+.custom-nav {
+  text-align: center;
+}
+
+.custom-nav-inner h5 {
+  display: inline;
+}
+
+.info-card {
+  margin-top: 10%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 29px 3px rgba(0,0,0,0.63);
+  -moz-box-shadow: 10px 10px 29px 3px rgba(0,0,0,0.63);
+  box-shadow: 10px 10px 29px 3px rgba(0,0,0,0.63);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+.map-outer {
+  text-align: center;
+  height: 40vh;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  margin-top: 20px;
+  position:relative;
+  text-align:right;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  overflow:hidden;
+  background:none;
+  }
+
+#google_map {
+  height: 100%;
+  width: 100%;
+}
