@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg {
-  background-image: url('/imgs/gcs.jpg');
+  background-image: url('/imgs/as1.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,7 +23,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .custom-nav {
+  padding-top: 40px;
   text-align: center;
+  color: white;
 }
 
 .custom-nav-inner h5 {
@@ -32,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .info-card {
   margin-top: 10%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   -webkit-box-shadow: 10px 10px 29px 3px rgba(0,0,0,0.63);
   -moz-box-shadow: 10px 10px 29px 3px rgba(0,0,0,0.63);

@@ -1,14 +1,3 @@
-<p>Dat was working at factory dealer ship with
-all the training and became a master technician
-and shop foreman. Then he left dealer ship to join
-with Germany's Best on College Ave in Oakland as the
-main and top technician there for a long time.
-Now he wants new challenges so he started a new a
-dventure to have a business for his own.
-Dat could face almost every difficult problems
-including the problems which any other shop couldn't
-face or just doesn't want a challenge to figure out
-and solve. It's already hard to diagnose the hard
-problem but yet, he likes to work on electrical systems
-especially, even though many shops around can't figure it out.
-Come to 5300 Broadway, Oakland, CA 94618 to get a problem-free car. Walk-ins or appointments.</p>
+<p><h1>Auto Repair</h1>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
