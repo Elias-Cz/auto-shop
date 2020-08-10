@@ -1,17 +1,22 @@
 body, html {
   height: 100%;
-  margin: 0;
-  font-family: 'Open Sans', serif;
-  font-weight: 20px;
+  margin: 0px;
+  padding: 0px;
+  font: 'Open Sans', serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Catamaran', serif;
+h1, h2, {
+  font: 'Montserrat', sans-serif !important;
+  text-transform: uppercase;
   font-weight: bolder;
 
 }
 
-
+h3, h4, h5, h6 {
+  font: 'Montserrat', sans-serif !important;
+  text-transform: uppercase;
+  font-weight: 500;
+}
 
 .bg {
   background: radial-gradient(ellipse farthest-corner at 0 140%, #757780 0%, #CFDEE7 75%, #F9F4F5 75%);
@@ -26,10 +31,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .car img {
   border-radius: 50%;
-}
-
-.main-body {
-
 }
 
 .card-first {
