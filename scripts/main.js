@@ -1,3 +1,4 @@
+
 function loadDoc1() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -34,15 +35,11 @@ function loadDoc3() {
 document.addEventListener('click', event => {
   const element = event.target;
   if (element.className === "nav-it") {
-    let spin = document.querySelector('.sk-folding-cube')
-    spin.style.display = "block"
-    let anim = document.getElementById('switch')
-    anim.style.display = 'none'
-    setTimeout(() => {
-      anim.style.display = "block"
-      spin.style.display = "none"
-      anim.style.animationPlayState = "running"
-    }, 1200)
-    console.log('animate')
+    let list = document.querySelectorAll('.nav-it')
+    list.forEach(item => {
+      item.setAttribute('id', '')
+    })
+    element.setAttribute('id', 'selection')
+    console.log('change')
   }
 })
