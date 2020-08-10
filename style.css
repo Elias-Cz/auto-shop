@@ -9,7 +9,6 @@ h1, h2, {
   font: 'Montserrat', sans-serif !important;
   text-transform: uppercase;
   font-weight: bolder;
-
 }
 
 h3, h4, h5, h6 {
@@ -18,8 +17,12 @@ h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+.title1 {
+  color: white;
+}
+
 .bg {
-  background: radial-gradient(ellipse farthest-corner at 0 140%, #757780 0%, #CFDEE7 75%, #F9F4F5 75%);
+  background: radial-gradient(ellipse farthest-corner at 0 140%, #011627 0%, #626C66 75%, #BBCBCB 80%);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,10 +30,32 @@ h3, h4, h5, h6 {
   -webkit-background-size: cover;
   -moz-background-size:cover;
   -o-background-size: cover;
+  -webkit-animation: breathe 10s ease infinite;
+  -moz-animation: breathe 10s ease infinite;
+  animation: breathe 10s ease infinite;
+}
+
+
+
+@-webkit-keyframes breathe {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+@-moz-keyframes breathe {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+@keyframes breathe {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
 }
 
 .car img {
   border-radius: 50%;
+  height: 500px;
 }
 
 .card-first {
@@ -42,7 +67,9 @@ h3, h4, h5, h6 {
   box-shadow: 10px 10px 17px 4px rgba(0,0,0,0.6);
 }
 
-
+.col {
+  color: white;
+}
 
 .custom-nav-inner h5 {
   display: inline;
@@ -77,7 +104,7 @@ h3, h4, h5, h6 {
 #selection {
   position: relative;
   font-weight: bolder;
-  background-color: #E71D36;
+  background-color: #D72638;
   padding: 5px;
   border-radius: 10px;
   color: white;
@@ -85,13 +112,25 @@ h3, h4, h5, h6 {
   animation-iteration-count: 1;
 }
 
+#selection:hover {
+  background-color: #F25F5C
+}
+
 .submit-form #btn {
-  background-color: #E71D36;
+  background-color: #D72638 ;
   border: none;
   border-radius: 10px;
   color: white;
   padding: 5px;
   font-weight: bolder;
+}
+
+.fa, .fab {
+  margin: 5px;
+}
+
+.submit-form #btn:hover {
+  background-color: #F25F5C
 }
 
 .submit-form .field {
@@ -104,7 +143,7 @@ h3, h4, h5, h6 {
 
 .submit-form .field:focus {
   outline: none;
-  border-bottom: 2px solid #011627;
+  border-bottom: 2px solid #011627 ;
   -webkit-box-shadow: 10px 10px 24px -2px rgba(0,0,0,0.39);
   -moz-box-shadow: 10px 10px 24px -2px rgba(0,0,0,0.39);
   box-shadow: 10px 10px 24px -2px rgba(0,0,0,0.39);
@@ -124,4 +163,18 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+@media only screen and (max-device-width: 1366px) {
+
+  .bg {
+    height: 200%;
+  }
+
+  .car img {
+    height: 300px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
 }
