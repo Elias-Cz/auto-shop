@@ -72,9 +72,10 @@ a:hover {
   background-color: #F9F4F5;
   padding: 20px;
   border-radius: 30px;
+  shad
   -webkit-box-shadow: 10px 10px 17px 4px rgba(0,0,0,0.6);
   -moz-box-shadow: 10px 10px 17px 4px rgba(0,0,0,0.6);
-  box-shadow: 10px 10px 17px 4px rgba(0,0,0,0.6);
+  box-shadow: 10px 10px 17px 4px rgba(0, 0, 0, 0.6);
   display: inline-block;
   text-align: left;
   margin-bottom: 15%;
@@ -86,7 +87,7 @@ a:hover {
 
 .custom-nav-inner a {
   text-decoration: none;
-  color: #011627;
+  color: white;
 }
 
 .custom-nav {
@@ -95,6 +96,7 @@ a:hover {
 
 .map-outer {
   text-align: center;
+  color: white;
 }
 
 .nav-cont {
@@ -154,7 +156,7 @@ a:hover {
 
 .left {
   width: 60%;
-  background: radial-gradient(ellipse farthest-corner at 0 140%, #011627 0%, #626C66 75%, #BBCBCB 90%);
+  background-color: #393E41;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -210,18 +212,18 @@ ul {
 
   .column {
     float: none;
-    width: 100%
+    width: 100%;
+    background: url(car4.jpg) no-repeat center center fixed;
+    background-size: cover;
   }
 
   .left {
     width: 100%;
+    height: 100%;
   }
 
   .right {
-    width: 100%;
-    height: auto;
-    background: url(car4.jpg) no-repeat center center fixed;
-    background-size: cover;
+    display: none;
   }
 
  .custom-nav {
@@ -234,7 +236,7 @@ ul {
  }
 
  .title1 img {
-   max-height: 100px;
+   display: none;
  }
 
 }
