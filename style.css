@@ -144,9 +144,9 @@ a:hover {
   width: 40%;
   height: 100%;
   background: url(car4.jpg) no-repeat right top local;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -215,6 +215,9 @@ ul {
     width: 100%;
     background: url(car4.jpg) no-repeat center center fixed;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
 
   .left {
