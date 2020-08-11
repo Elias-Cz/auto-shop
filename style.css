@@ -21,6 +21,46 @@ h3, h4, h5, h6 {
   color: white;
 }
 
+a, a:visited {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  animation: spin 1s;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+    from {
+      -moz-transform: rotate(0deg);
+    }
+    to {
+      -moz-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+}
+
+
 .bg {
   background: radial-gradient(ellipse farthest-corner at 0 140%, #011627 0%, #626C66 75%, #BBCBCB 80%);
   height: 100%;
@@ -33,6 +73,11 @@ h3, h4, h5, h6 {
   -webkit-animation: breathe 10s ease infinite;
   -moz-animation: breathe 10s ease infinite;
   animation: breathe 10s ease infinite;
+}
+
+.title1 img {
+  height: 100px;
+
 }
 
 
@@ -168,13 +213,18 @@ ul {
 @media only screen and (max-device-width: 1366px) {
 
   .bg {
-    height: 200%;
+    height: 120%;
   }
 
   .car img {
     height: 300px;
     text-align: center;
     margin-top: 40px;
+  }
+
+  .title1 img {
+    height: 60px;
+    margin-bottom: 10px;
   }
 
 }
