@@ -67,15 +67,8 @@ a:hover {
   max-height: 150px;
 }
 
-.euro img {
-  position: absolute;
-  bottom: 350px;
-}
-
 .card-first {
-  position: absolute;
-  top: 30%;
-  width: 50%;
+  width: 70%;
   background-color: #393E41;
   padding: 20px;
   border-radius: 10px;
@@ -90,8 +83,6 @@ a:hover {
   border-top: 2px solid #D72638
 }
 
-
-
 .custom-nav-inner h5 {
   display: inline;
 }
@@ -103,17 +94,11 @@ a:hover {
 
 .custom-nav {
   margin-bottom: 20%;
-  position: absolute;
-  top: 0px;
-  display: inline-block;
 }
 
 .map-outer {
   text-align: center;
   color: white;
-  position: absolute;
-  bottom: 100px;
-  display: inline-block;
 }
 
 .nav-cont {
@@ -244,8 +229,6 @@ ul {
   .left {
     width: 100%;
     height: auto;
-    position: relative;
-
   }
 
   .right {
@@ -254,11 +237,6 @@ ul {
 
  .custom-nav {
    margin-bottom: 20px;
-   position: static;
- }
-
- .map-outer {
-   position: static;
  }
 
  #mob {
@@ -272,10 +250,6 @@ ul {
 
  .title1 img {
    display: none;
- }
-
- .card-first {
-   position: static;
  }
 
 }
