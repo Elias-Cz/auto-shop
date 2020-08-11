@@ -93,7 +93,7 @@ a:hover {
 }
 
 .custom-nav {
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 .map-outer {
@@ -143,6 +143,19 @@ a:hover {
 
 #formcar {
   max-width: 300px;
+}
+
+.euro img {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+#eu1 {
+  max-height: 80px;
+}
+
+#eu2 {
+  max-height: 80px;
 }
 
 
