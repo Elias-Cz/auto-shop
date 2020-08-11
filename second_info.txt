@@ -10,7 +10,7 @@
 
   </div>
   <div class="col-md-12">
-    <textarea name="name" class="field" rows="4" placeholder="Message" cols="40"></textarea>
+    <textarea name="name" class="field" rows="4" placeholder="Message" cols="auto"></textarea>
     <br>
     <input type="submit" id="btn"name="" value="Submit">
   </div>
