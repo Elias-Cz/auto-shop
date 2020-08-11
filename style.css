@@ -141,6 +141,10 @@ a:hover {
   display: none;
 }
 
+#formcar {
+  max-width: 300px;
+}
+
 
 .right {
   width: 40%;
@@ -238,6 +242,10 @@ ul {
  #mob {
    display: inline-block;
    height: 100px;
+ }
+
+ #formcar {
+   max-width: 180px
  }
 
  .title1 img {
