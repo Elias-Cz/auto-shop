@@ -101,6 +101,9 @@ a:hover {
 .car img {
   border-radius: 50%;
   height: 500px;
+  -webkit-box-shadow: 10px 10px 17px 4px rgba(0,0,0,0.6);
+  -moz-box-shadow: 10px 10px 17px 4px rgba(0,0,0,0.6);
+  box-shadow: 10px 10px 17px 4px rgba(0,0,0,0.6);
 }
 
 .card-first {
