@@ -1,3 +1,27 @@
-<p><h1>Auto Repair</h1>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+<div class="gallery">
+
+  <div class="mySlides fx">
+    <div class="img-number">1/4</div>
+    <img src="sel1.jpeg" alt="Volkswagen">
+  </div>
+
+  <div class="mySlides fx">
+    <div class="img-number">2/4</div>
+    <img src="sel2.jpg" alt="Mercedes">
+  </div>
+
+  <div class="mySlides fx">
+    <div class="img-number">3/4</div>
+    <img src="sel3.jpg" alt="Diagnosic 1">
+  </div>
+
+  <div class="mySlides fx">
+    <div class="img-number">4/4</div>
+    <img src="sel4.jpg" alt="Diagnostic 2">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+</div>

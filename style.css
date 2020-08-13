@@ -200,16 +200,7 @@ a, a:visited {
   max-width: 600px;
   position: relative;
   margin: auto;
-  margin-top: 10%;
-  background-color: #393E41;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 15%;
-  border-bottom: 2px solid #D72638;
-  border-top: 2px solid #D72638;
-  -webkit-box-shadow: 10px 10px 17px 4px rgba(0,0,0,0.6);
-  -moz-box-shadow: 10px 10px 17px 4px rgba(0,0,0,0.6);
-  box-shadow: 10px 10px 17px 4px rgba(0, 0, 0, 0.6);
+  text-align: center;
 }
 
 .mySlides {
@@ -352,6 +343,10 @@ ul {
 
  .title1 img {
    display: none;
+ }
+
+ .gallery img {
+   max-width: 280px;
  }
 
 }
