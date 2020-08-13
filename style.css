@@ -166,7 +166,7 @@ a, a:visited {
 
 .right {
   width: 40%;
-  height: 200%;
+  height: 100%;
   background: url(car4.jpg) no-repeat right top fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -180,7 +180,7 @@ a, a:visited {
 
 .left {
   width: 60%;
-  height: 200%;
+  height: 100%;
   background-color: #090C02;
   background-position: center;
   background-repeat: no-repeat;
@@ -194,10 +194,12 @@ a, a:visited {
 
 .gallery img {
   max-width: 400px;
+  max-height: 300px;
 }
 
 .gallery {
   max-width: 600px;
+  max-height: 300px;
   position: relative;
   margin: auto;
   text-align: center;
@@ -346,7 +348,11 @@ ul {
  }
 
  .gallery img {
-   max-width: 280px;
+   max-width: 200px;
+ }
+
+ #eu1 {
+   display: none;
  }
 
 }

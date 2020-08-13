@@ -45,7 +45,18 @@ document.addEventListener('click', event => {
   }
 })
 
-var slideIndex =1;
+document.addEventListener('click', event => {
+  let gallery = event.target;
+  if (gallery.parentElement.id === "galleryLoad") {
+    console.log("gallery")
+    setTimeout( () => {
+    var slides = document.getElementsByClassName("mySlides");
+    slides[0].style.display = "block";
+  }, 500)
+  }
+})
+
+var slideIndex = 1
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -64,5 +75,5 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  slides[slideIndex-1].style.display = "block"
+  slides[slideIndex-1].style.display = "block";
 }
