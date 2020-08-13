@@ -12,8 +12,7 @@
 </form>
       </div>
 
-<div class=col-md-6>
-  <img src=car1.jpg id=formcar>
+<div class=col-md-6 id=formcar>
 </div>
 </div>
 </div>

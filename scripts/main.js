@@ -58,6 +58,7 @@ document.addEventListener('click', event => {
 
 var slideIndex = 1
 showSlides(slideIndex);
+window.setInterval("showSlides(slideIndex+=1)", 5000)
 
 function plusSlides(n) {
   showSlides(slideIndex += n);

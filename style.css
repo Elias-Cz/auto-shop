@@ -74,7 +74,7 @@ a, a:visited {
 .card-first {
   width: 70%;
   background-color: #393E41;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   color: white;
   -webkit-box-shadow: 10px 10px 17px 4px rgba(0,0,0,0.6);
@@ -96,8 +96,13 @@ a, a:visited {
   color: white;
 }
 
+.custom-nav-inner {
+  width: 100%;
+}
+
 .custom-nav {
-  margin-bottom: 5%;
+  margin-bottom: 2%;
+  width: 70%;
 }
 
 .map-outer {
@@ -146,7 +151,10 @@ a, a:visited {
 }
 
 #formcar {
+  background: url(sel8.jpg) no-repeat center center local;
+  background-size: contain;
   max-width: 300px;
+
 }
 
 .euro img {
@@ -156,13 +164,16 @@ a, a:visited {
 
 #eu1 {
   max-height: 80px;
+  left: 0;
 }
 
 #eu2 {
-  max-height: 80px;
+  max-height: 60px;
 }
 
-
+.nav-it {
+  text-align: center;
+}
 
 .right {
   width: 40%;
@@ -252,9 +263,9 @@ a, a:visited {
 
 .fx {
   -webkit-animation-name: fx;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 2.0s;
   animation-name: fx;
-  animation-duration: 1.5s;
+  animation-duration: 2.0s;
   }
 
   @-webkit-keyframes fx {
@@ -340,7 +351,7 @@ ul {
  }
 
  #formcar {
-   max-width: 180px
+   max-height: 180px
  }
 
  .title1 img {
