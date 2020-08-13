@@ -82,7 +82,7 @@ a, a:visited {
   box-shadow: 10px 10px 17px 4px rgba(0, 0, 0, 0.6);
   display: inline-block;
   text-align: left;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
   border-bottom: 2px solid #D72638;
   border-top: 2px solid #D72638
 }
@@ -97,7 +97,7 @@ a, a:visited {
 }
 
 .custom-nav {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .map-outer {
@@ -106,7 +106,7 @@ a, a:visited {
 }
 
 .nav-cont {
-  margin-bottom: 5%;
+  margin-bottom: 0;
 }
 
 #selection {

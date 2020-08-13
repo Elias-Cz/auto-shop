@@ -1,5 +1,5 @@
 <p>
-  <h3>WHAT WE DO<i style="color: #D72638">.</i></h3>
+  <h3>WHAT WE DO <i style="color: #D72638">.</i> </h3>
   Any lights turned on in your dashboard?
   Need a second or first opinion? Having doubts or questions
   your local mechanic can't seem to answer?
@@ -10,6 +10,33 @@
   <br>
   We specialize in <em>All major European make vehicles:</em> Mercedes-Benz, BMW, MINI, Audi, Land Rover, Jaguar, Volkswagen.
   <br>
-  We help identify the <strong>real issues</strong> your vehicle is facing using our dealer certified computers and tools.
-  Backed by our <strong>6 month gurantee</strong> if you choose us to do the full job.
+  We help identify the <strong style="color: #D72638">real issues</strong> your vehicle is facing using our dealer certified computers and tools.
+  Backed by our <strong style="color: #D72638">6 month gurantee</strong> if you choose us to do the full job.
 </p>
+
+<div class="gallery">
+
+  <div class="mySlides fx">
+    <div class="img-number">1/4</div>
+    <img src="sel1.jpeg" alt="Volkswagen">
+  </div>
+
+  <div class="mySlides fx">
+    <div class="img-number">2/4</div>
+    <img src="sel2.jpg" alt="Mercedes">
+  </div>
+
+  <div class="mySlides fx">
+    <div class="img-number">3/4</div>
+    <img src="sel3.jpg" alt="Diagnosic 1">
+  </div>
+
+  <div class="mySlides fx">
+    <div class="img-number">4/4</div>
+    <img src="sel4.jpg" alt="Diagnostic 2">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
