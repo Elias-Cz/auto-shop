@@ -158,9 +158,6 @@ a:hover {
   max-height: 80px;
 }
 
-.gallery img {
-  max-height: 400px;
-}
 
 
 .right {
@@ -188,6 +185,75 @@ a:hover {
   -o-background-size: cover;
   text-align: center;
 
+}
+
+.gallery img {
+  max-width: 400px;
+}
+
+.gallery {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 50%;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-number {
+  color: #fff;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.current {
+  background-color: #717171
+}
+
+.fx {
+  -webkit-animation-name: fx;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fx;
+  animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fx {
+  from {opacity: .4}
+  to {opacity: 1}
+  }
+
+  @keyframes fx {
+  from {opacity: .4}
+  to {opacity: 1}
+  }
 }
 
 .submit-form #btn:hover {
