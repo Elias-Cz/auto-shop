@@ -3,6 +3,7 @@ body, html {
   margin: 0px;
   padding: 0px;
   font: 'Open Sans', serif !important;
+
 }
 
 * {
@@ -152,9 +153,27 @@ a, a:visited {
 
 #formcar {
   background: url(sel8.jpg) no-repeat center center local;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
   background-size: contain;
   max-width: 300px;
+}
 
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .euro img {
@@ -200,7 +219,7 @@ a, a:visited {
   -moz-background-size:cover;
   -o-background-size: cover;
   text-align: center;
-
+  overflow: auto;
 }
 
 .gallery img {
