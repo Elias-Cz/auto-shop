@@ -350,8 +350,14 @@ ul {
    height: 100px;
  }
 
+ .card-first {
+   width: 82%;
+ }
+
  #formcar {
-   max-height: 180px
+   max-width: 180px;
+   background: url(sel8.jpg) no-repeat center center local;
+   background-size: contain;
  }
 
  .title1 img {
