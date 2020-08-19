@@ -364,7 +364,13 @@ ul {
   }
 
  .custom-nav {
+
    margin-bottom: 20px;
+ }
+
+ .custom-nav-inner {
+   display: inline-block;
+   text-align: center;
  }
 
  #mob {

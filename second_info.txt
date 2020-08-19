@@ -18,8 +18,11 @@
       <p>
       Phone:
       <br>
-      555-555-5555
-      email@emailprovider.com
+      <a href="tel:+1-510-270-2208">(510) 270-2208</a>
+      <br>
+      Email:
+      <br>
+      <a href="mailto:info@euromobilesolutions.com">info@euromobilesolutions.com</a>
       </p>
       <img src="sel8.jpg" alt="Contact form car" id=formcar>
 
