@@ -152,11 +152,8 @@ a, a:visited {
 }
 
 #formcar {
-  background: url(sel8.jpg) no-repeat center center local;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
-  max-width: 300px;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -197,11 +194,12 @@ a, a:visited {
 .right {
   width: 40%;
   height: 100%;
-  background: url(car4.jpg) no-repeat right top fixed;
+  background: url(car4.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: 40% 100%;
+  background-size: cover;
+  background-position: 50% 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -379,11 +377,8 @@ ul {
  }
 
  #formcar {
-   background: url(sel8.jpg);
-   background-size: cover;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
+   width: 100%;
+   height: auto;
  }
 
 
