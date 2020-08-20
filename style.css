@@ -364,6 +364,68 @@ ul {
   }
 
  .custom-nav {
+   margin-bottom: 20px;
+ }
+
+ .custom-nav-inner {
+   display: inline-block;
+
+ }
+
+ #mob {
+   display: inline-block;
+   height: 100px;
+ }
+
+ .card-first {
+   width: 82%;
+ }
+
+ #formcar {
+   width: 100%;
+   height: auto;
+ }
+
+
+ .gallery img {
+   max-width: 400px;
+ }
+
+ #eu1 {
+
+ }
+
+}
+
+
+@media only screen and (max-device-width: 400px) {
+  .bg {
+    height: auto;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .column {
+    float: none;
+    width: 100%;
+    background: url(car4.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+  }
+
+  .left {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .right {
+    display: none;
+  }
+
+ .custom-nav {
 
    margin-bottom: 20px;
  }
