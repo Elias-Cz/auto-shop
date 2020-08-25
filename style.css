@@ -130,6 +130,10 @@ a, a:visited {
   background-color: #F25F5C
 }
 
+#no-show {
+  display: none;
+}
+
 .submit-form #btn {
   background-color: #D72638 ;
   border: none;
@@ -463,6 +467,10 @@ ul {
    height: 100px;
    text-align: center;
    margin-top: 20px;
+ }
+
+ #no-show {
+   display: block;
  }
 
 }
