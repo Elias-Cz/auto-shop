@@ -395,9 +395,10 @@ ul {
    max-width: 400px;
  }
 
- #eu1 {
-
+ #no-show {
+   display: block;
  }
+
 
 }
 
