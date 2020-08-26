@@ -403,7 +403,7 @@ ul {
 }
 
 
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-device-width: 420px) {
   .bg {
     height: auto;
     display: inline-block;
